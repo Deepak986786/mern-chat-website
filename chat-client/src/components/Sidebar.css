@@ -1,0 +1,48 @@
+.sidebar {
+  width: 260px;
+  background-color: lightslategray;
+  height: 100%;
+}
+
+.sidebar-title {
+  height: 56px;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar-content {
+  /* margin-top: 25px; */
+  background: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.sidebar-content h3{
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.sidebar-item {
+    padding: 10px;
+}
+
+.sidebar-item ul li {
+  text-align: start;
+  list-style: none;
+  /* width: 40px; */
+  height: 40px;
+  background: #cce;
+  margin: 12px;
+  padding: 4px;
+
+}
+
+
+@media  screen and (min-width: 786px){
+    .sidebar-title{
+        display:none;
+    }
+}

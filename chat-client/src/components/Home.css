@@ -1,0 +1,25 @@
+
+.home{
+ width: 100vw;
+ height: 100%;
+}
+
+.header{
+   
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.sidebar{
+
+}
+
+.h-main{
+  width: 100%;
+  background-color: lightskyblue;
+  
+}
