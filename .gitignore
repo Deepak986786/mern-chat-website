@@ -5,6 +5,7 @@ node_modules
 /node_modules
 
 .env
-
+# /chat-server/node_modules
+# /chat-client/node_modules
 
 /dist
